@@ -51,7 +51,7 @@ example_map = {
     'Highway_Access': []
 }
 
-# distances, paths = dijkstra_shortest_paths(example_map, 'Bookstore')
-# print(f"Distances: {distances}")
-# print(f"Predecessors: {paths}")
+distances, paths = dijkstra_shortest_paths(example_map, 'Bookstore')
+print(f"Distances: {distances}")
+print(f"Predecessors: {paths}")
 
